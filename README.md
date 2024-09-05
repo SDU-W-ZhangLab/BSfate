@@ -18,11 +18,11 @@ BSFate shows a significant application in investigating the regulatory mechanism
 
 ## **Installation**
 We recommend installing the CytoTRACE 2 package using the devtools package from the R console. If you do not have devtools installed, you can install it by running install.packages("devtools") in the R console.
-
+```
 devtools::install_github("SDU-W-Zhanglab/BSfate")
 
 library(BSfate)
-
+```
 
 ## **Running** **BSfate**
 Running BSfate is very simple, after loading the library, it only takes four steps to complete the prediction of cell fate determinants:
